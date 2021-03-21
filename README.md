@@ -1,4 +1,3 @@
-# Python programs 
 # Depth First Searching (DFS) dan Breadth First Searching (BFS)
 
 Breadth first search (BFS) adalah algoritma yang melakukan pencarian secara melebar yang mengunjungi node secara preorder yaitu mengunjungi suatu node kemudian mengunjungi semua node yang bertetangga dengan node tersebut terlebih dahulu. Selanjutnya, node yang belum dikunjungi dan bertetangga dengan node-node yang tadi dikunjungi , demikian seterusnya. Jika graf berbentuk pohon berakar, maka semua node pada aras d dikunjungi lebih dahulu sebelum node-node pada aras d+1. Algoritma ini memerlukan sebuah antrian q untuk menyimpan node yang telah dikunjungi. Node-node ini diperlukan sebagai acuan untuk mengunjungi node-node yang bertetanggaan dengannya. Tiap node yang telah dikunjungi masuk ke dalam antrian hanya satu kali.
